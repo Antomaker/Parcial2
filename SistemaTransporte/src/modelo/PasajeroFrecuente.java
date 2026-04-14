@@ -15,8 +15,7 @@ public class PasajeroFrecuente extends Pasajero {
      * Crea un pasajero frecuente.
      * El saldo inicial queda en 0 porque el constructor no lo recibe.
      *
-     * FALLO 3: el saldo inicial siempre es 0 porque super() recibe 0 hardcodeado
-     *          en vez de recibir saldoInicial como parametro y pasarlo.
+     * 
      */
     public PasajeroFrecuente(String nombre, String cedula, String correo,
                              double saldoInicial, String nivelMembresia) {
